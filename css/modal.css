@@ -1,0 +1,164 @@
+.modaltrigger {
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+  aspect-ratio: 16/9;
+  object-fit:cover;
+  opacity: 1;
+}
+
+.modaltriggerSquare {
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+  aspect-ratio: 1/1;
+  object-fit:cover;
+  opacity: 1;
+}
+
+.modaltriggerVideo {
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+  aspect-ratio: 16/9;
+  object-fit:cover;
+  opacity: 1;
+}
+
+.modaltrigger:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.modaltriggerSquare:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.modaltriggerVideo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  align-self: center;
+  margin: auto;
+  display: none;
+  height: 80%;
+  max-width: 1920px;
+  border-radius: 10px;
+}
+.modal-content-video {
+  align-self: center;
+  margin: auto;
+  display: none;
+  height: 80%;
+  max-width: 1920px;
+  border-radius: 10px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: var(--main-text-color);
+  padding: 10px 0;
+  height: 20px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.3s;
+}
+
+.modal {
+  animation-name: fadein;
+  animation-duration: 0.3s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.9)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 1000px) {
+  .modal-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .modaltrigger,
+  .modaltriggerSquare,
+  .modaltriggerVideo {
+    margin-top: 2vh;
+    width: 100%;
+  }
+}
