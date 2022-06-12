@@ -224,8 +224,8 @@ body {
 }
 .imageCell {
   display: block;
-  width: auto;
   height: auto;
+  object-fit: contain;
 }
 .textCell {
   width: 65%;
