@@ -18,8 +18,9 @@
   border-style: none;
   cursor: pointer;
   transition: 0.3s;
-  object-fit:cover;
+  object-fit: cover;
   opacity: 1;
+  aspect-ratio: 1/1;
 }
 
 .modaltriggerVideo {

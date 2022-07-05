@@ -19,9 +19,9 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    background-image: url("../img/Fernanda/Fer-Darkness.jpeg");
+    background-image: url("../img/Fernanda/Fer-Darkness.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
