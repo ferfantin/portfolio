@@ -281,6 +281,14 @@ body {
 
 @media only screen and (max-width: 1000px) {
 
+  :root {
+    --font-menu: 1.1em;
+    --font-footer: 0.9em;
+    --font-title: 1.9em;
+    --font-label: 1.3em;
+    --font-description: 1.2em;
+  }
+
   .wrapper-cel,
   .wrapper-cel-reverse {
     flex-direction: column-reverse;
