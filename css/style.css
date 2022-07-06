@@ -5,11 +5,11 @@
   --main-text-color: #96b3fd;
   --box-color: #1c1935;
 
-  --font-menu: 1.0em;
-  --font-footer: 0.8em;
-  --font-title: 1.8em;
-  --font-label: 1.2em;
-  --font-description: 1.1em;
+  --font-menu: 16px;
+  --font-footer: 12px;
+  --font-title: 24px;
+  --font-label: 18px;
+  --font-description: 18px;
 
   scroll-behavior: smooth;
 }
@@ -280,14 +280,6 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-
-  :root {
-    --font-menu: 1.1em;
-    --font-footer: 0.9em;
-    --font-title: 1.9em;
-    --font-label: 1.3em;
-    --font-description: 1.2em;
-  }
 
   .wrapper-cel,
   .wrapper-cel-reverse {
