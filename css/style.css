@@ -5,17 +5,15 @@
   --main-text-color: #96b3fd;
   --box-color: #1c1935;
 
-  --font-menu: 1.2rem;
+  --font-menu: 1.1rem;
   --font-footer: 0.8rem;
   --font-title: 1.6rem;
-  --font-label: 1.2rem;
-  --font-description: 1.2rem;
+  --font-label: 1.1rem;
+  --font-description: 1.1rem;
 
   scroll-behavior: smooth;
 }
-html {
-  font-size: 16px;
-}
+
 .company {
   height: 30px;
   margin-right: 20px;
@@ -43,7 +41,6 @@ body {
   display: flex;
   flex-direction: row;
 }
-
 .wrapper-column {
   width: 80%;
   max-width: 1200px;
@@ -51,7 +48,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
+.wrapper-quicklinks {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
 .wrapper-cel {
   width: 80%;
   max-width: 1200px;
@@ -62,7 +64,6 @@ body {
   align-self: center;
   min-height: 70vh;
 }
-
 .wrapper-cel-reverse {
   width: 80%;
   max-width: 1200px;
@@ -297,6 +298,9 @@ body {
     flex-direction: column-reverse;
     min-height: auto;
   }
+  .wrapper-quicklinks {
+    flex-direction: column;
+  }
   .celTitle {
     text-align: center;
     margin-top: 40px;
@@ -334,4 +338,13 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
+.quickLink:visited,
+.quickLink:link,
+.quickLink:active {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 }
