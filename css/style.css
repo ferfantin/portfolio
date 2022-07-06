@@ -5,11 +5,11 @@
   --main-text-color: #96b3fd;
   --box-color: #1c1935;
 
-  --font-menu: 1.2em;
-  --font-footer: 0.8em;
-  --font-title: 1.6em;
-  --font-label: 1.2em;
-  --font-description: 1.2em;
+  --font-menu: 1.2rem;
+  --font-footer: 0.8rem;
+  --font-title: 1.6rem;
+  --font-label: 1.2rem;
+  --font-description: 1.2rem;
 
   scroll-behavior: smooth;
 }
