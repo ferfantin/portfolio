@@ -1,4 +1,3 @@
-
 .logo {
   position: absolute;
   width: auto;
@@ -14,8 +13,7 @@
   height: 80vh;
 }
 
-.run
-{
+.run {
   display: flex;
   position: absolute;
   width: 20%;
@@ -62,7 +60,6 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--bg-color);
-  background-image: url("../img/texture.png");
   background-repeat: repeat;
 }
 
@@ -100,50 +97,49 @@
 }
 
 @keyframes runAnimation {
-  0% 
-  {
+  0% {
     opacity: 0;
     right: 0%;
     transform: scaleX(1)
   }
-  3% 
-  {
+
+  3% {
     opacity: 1;
   }
-  40%
-  {
+
+  40% {
     opacity: 1;
   }
-  45%
-  {
+
+  45% {
     opacity: 0;
     right: 80%;
   }
-  49%
-  {
+
+  49% {
     transform: scaleX(1)
   }
-  50%
-  {
+
+  50% {
     opacity: 0;
     right: 80%;
     transform: scaleX(-1)
   }
-  53%
-  {
+
+  53% {
     opacity: 1;
   }
-  90% 
-  {
+
+  90% {
     opacity: 1;
   }
-  95% 
-  {
+
+  95% {
     right: 0%;
     opacity: 0;
   }
-  100%
-  {
+
+  100% {
     transform: scaleX(-1)
   }
 }
@@ -153,9 +149,11 @@
   .particle {
     height: 100vw;
   }
+
   .logo {
     height: 100vw;
   }
+
   .bg1 {
     height: 100vw;
     background-attachment: local;
@@ -169,7 +167,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:auto;
+    min-height: auto;
   }
 
   .bg5 {
@@ -177,6 +175,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:auto;
+    min-height: auto;
   }
 }
