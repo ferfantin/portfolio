@@ -6,7 +6,19 @@
   border-style: none;
   cursor: pointer;
   transition: 0.3s;
-  object-fit:cover;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.modaltriggerOutline {
+  display: flex;
+  width: 30%;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+  transition: 0.3s;
+  object-fit: cover;
   opacity: 1;
 }
 
@@ -31,7 +43,7 @@
   border-style: none;
   cursor: pointer;
   transition: 0.3s;
-  object-fit:cover;
+  object-fit: cover;
   opacity: 1;
 }
 
@@ -39,10 +51,17 @@
   opacity: 1;
   transform: scale(1.05);
 }
+
+.modaltriggerOutline:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
 .modaltriggerSquare:hover {
   opacity: 1;
   transform: scale(1.05);
 }
+
 .modaltriggerVideo:hover {
   opacity: 1;
   transform: scale(1.05);
@@ -74,6 +93,7 @@
   max-width: 1920px;
   border-radius: 10px;
 }
+
 .modal-content-video {
   align-self: center;
   margin: auto;
@@ -154,6 +174,7 @@
   }
 
   .modaltrigger,
+  .modaltriggerOutline,
   .modaltriggerSquare,
   .modaltriggerVideo {
     margin-top: 2vh;
