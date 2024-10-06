@@ -35,6 +35,14 @@
   aspect-ratio: 1/1;
 }
 
+.leftStart{
+  object-position: center left;
+}
+
+.rightStart{
+  object-position: center right;
+}
+
 .modaltriggerVideo {
   display: flex;
   width: 30%;
@@ -46,6 +54,7 @@
   object-fit: cover;
   opacity: 1;
 }
+
 
 .modaltrigger:hover {
   opacity: 1;
